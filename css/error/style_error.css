@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial;
+}
+.error{
+    background: url(/photos/error.jpg) center center / cover no-repeat;
+    padding: 30%; 
+    margin: -85px;
+ }
+ .error h2{
+     margin: 0;
+     font-size: 35px;
+     color: red;
+     text-align: center;
+     line-height: 50px;
+ }

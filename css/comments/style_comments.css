@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial;
+}
+.commentsi{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:rgba(0, 0, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.commentsi h2{
+     font-size: 35px;
+     color: green;
+     line-height: 80px; 
+ }

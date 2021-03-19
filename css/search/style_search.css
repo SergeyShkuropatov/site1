@@ -1,0 +1,125 @@
+.search {
+  background:rgb(124, 233, 16);
+}
+.search .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 35px;
+  background: #1100ff;
+  margin-bottom: 35px;
+}
+
+@media (max-width: 750px) {
+  .search .navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+.search .logo {
+  margin-right: 100px;
+}
+
+ @media (max-width: 750px) {
+  .search .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 0; 
+  }
+} 
+
+@media (max-width: 750px) {
+  .search .logo a {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 750px) {
+  .search .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+.search .picture-spasskaya-tower {
+  background: url(/icon/spasskaya-tower.png) center center/contain no-repeat;
+  padding: 35px;
+  margin: 0 10px;
+}
+
+.search .picture-MyMoscow {
+  -webkit-animation: spasskaya-tower 3s infinite;
+  animation: spasskaya-tower 3s infinite;
+  animation-direction: alternate-reverse;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffdb47;
+  line-height: 0.556;
+  text-align: center;
+}
+.search a {
+  text-decoration: none;
+  font-size: 14.5px;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  line-height: 1.379;
+  padding: 0 10px;
+  color: #ffdb47;
+}
+
+.search .nav a[target='#our-company'] span {
+  opacity: 0;
+}
+.search .text {
+  padding: 10px 40px;
+  color: #2a284f;
+}
+@media (max-width: 750px) {
+  .search .text {
+    padding: 10px;
+ }
+}
+.search p {
+  margin: 20px 0;
+  color: red;
+  font-size: 25px;
+  text-align: center;
+}
+
+.search h3 {
+  color: red;
+}
+@media (max-width: 750px) {
+  .search h3 {
+  text-align: center;
+ }
+}
+.search li {
+  padding: 25px;
+}
+@media (max-width: 750px) {
+  .search .text ol li{
+    display: flex;
+    flex-direction: column;
+ }
+}

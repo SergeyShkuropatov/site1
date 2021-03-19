@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Arial;
+}
+
+.footer_top {
+  background-color: #273a43;
+}
+
+.footer_top .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 90%;
+  margin: 50px auto 0 auto;
+  padding: 50px 0 40px 0;
+}
+
+@media (max-width: 750px) {
+  .footer_top .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.footer_top .left {
+  width: 40%;
+}
+
+@media (max-width: 750px) {
+  .footer_top .left {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.footer_top .spasskaya-tower {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 750px) {
+  .footer_top .spasskaya-tower {
+    width: 250px;
+    margin: 0 auto 20px;
+  }
+}
+
+.footer_top .picture-spasskaya-tower {
+  background: url(/icon/spasskaya-tower.png) center center/cover no-repeat;
+  padding: 20px;
+}
+
+.mymoscow_footer_top {
+  font-size: 26px;
+  font-family: "MV Boli";
+  color: #ffdb47;
+  line-height: 0.556;
+  text-align: center;
+}
+
+.footer_top .left .text {
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  color: #c3c3c3;
+  line-height: 1.429;
+  text-align: left;
+  margin-top: -30px;
+  width: 100%;
+}
+
+.footer_top .center {
+  width: 50%;
+}
+
+@media (max-width: 750px) {
+  .footer_top .center {
+    width: 100%;
+    margin: 50px auto;
+  }
+}
+
+.footer_top .contacts_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer_top .contacts_header {
+  font-size: 26px;
+  font-family: "Myriad Pro";
+  color: white;
+  line-height: 0.909;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.footer_top .center .contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.picture_adres {
+  background: url(/icon/placeholder.png) center center/contain no-repeat;
+  padding: 10px;
+  margin: 0 15px 0 0;
+}
+
+.footer_top .center_text {
+  font-size: 13.5px;
+  font-family: "Myriad Pro";
+  color: white;
+  line-height: 2.222;
+  text-align: left;
+  margin-top: 0;
+}
+
+.picture_mail {
+  background: url(/icon/mail.png) center center/contain no-repeat;
+  padding: 10px;
+  margin: 0 15px 0 0;
+}
+
+.picture_phone {
+  background: url(/icon/telephone.png) center center/contain no-repeat;
+  padding: 10px;
+  margin: 0 15px 0 0;
+}
+
+.footer_top .right {
+  width: 50%;
+}
+
+@media (max-width: 750px) {
+  .footer_top .right {
+    width: 100%;
+  }
+}
+
+.footer_top .right .header {
+  font-size: 26px;
+  font-family: "Myriad Pro";
+  color: white;
+  line-height: 0.909;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 750px) {
+  .footer_top .right .header {
+    text-align: center;
+  }
+}
+
+.footer_top .right_text {
+  font-size: 13.5px;
+  font-family: "Myriad Pro";
+  color: #c4c4c4;
+  line-height: 1.481;
+  text-align: left;
+  padding: 0 40px 0 0;
+}
+
+.data_new {
+  font-size: 13.5px;
+  font-family: "Myriad Pro";
+  color: #71b6d5;
+  line-height: 1.481;
+  text-align: left;
+}
+
+.footer_bottom {
+  background-color: #172227;
+}
+
+.footer_bottom .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px 0;
+}
+
+@media (max-width: 750px) {
+  .footer_bottom .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.footer_bottom .left {
+  width: 80%;
+}
+
+@media (max-width: 750px) {
+  .footer_bottom .left {
+    text-align: center;
+  }
+}
+
+.footer_bottom .left_text {
+  font-size: 13.5px;
+  font-family: "Myriad Pro";
+  color: #c4c4c4;
+  line-height: 1.333;
+  text-align: left;
+}
+
+@media (max-width: 750px) {
+  .footer_bottom .left_text {
+    text-align: center;
+  }
+}
+
+.footer_bottom .right {
+  width: 80%;
+}
+
+.footer_bottom .right_text {
+  font-size: 13.5px;
+  font-family: "Myriad Pro";
+  color: #c4c4c4;
+  line-height: 1.333;
+  text-align: left;
+  height: 14px;
+}
+
+@media (max-width: 750px) {
+  .footer_bottom .right_text {
+    text-align: center;
+    margin: 15px 0;
+  }
+}
+
+.button_social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 750px) {
+  .button_social {
+    position: unset;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.button_social_facebook {
+  background: url(/social/facebook.png) center center/contain no-repeat;
+  padding: 17px;
+  margin: 3px;
+}
+
+.button_social_instagram {
+  background: url(/social/instagram.png) center center/contain no-repeat;
+  padding: 17px;
+  margin: 3px;
+}
+
+.button_social_vk {
+  background: url(/social/vk.png) center center/contain no-repeat;
+  padding: 17px;
+  margin: 3px;
+}
+
+.arrow-up {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  width: 50px;
+  height: 50px;
+  background: url(/icon/up-arrow.png) center center/contain no-repeat;
+  border: 3px solid yellow;
+  border-radius: 50%;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+/*# sourceMappingURL=style_footer.css.map */
