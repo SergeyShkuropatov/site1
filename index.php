@@ -131,8 +131,6 @@
     
 <?php
    // Получаем данные из БД
-   $link = mysqli_connect('localhost', 'nasik159_moscow', 'F9j1L8q0', 'nasik159_moscow');
-   mysqli_set_charset($link, 'utf8');
    $sql_cards = "SELECT * FROM commentsi  ORDER BY id DESC LIMIT 10";
    $result_cards = mysqli_query($link, $sql_cards);
 

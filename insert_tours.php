@@ -26,12 +26,12 @@
     $template['data']['fields'] = [
         'fio'=> clean_field('fio'),
         'email'=>clean_field('email'),
-        'text_comment'=>clean_field('text_comment')
+        'text'=>clean_field('text')
     ];
 
     //Отправляем данные в БД
-        $sql = "INSERT INTO subscriber (id, `fio`,`email`,`text_comment`, `date_create`)";
-        $sql .= "VALUE (NULL,'{$template['data']['fields']['fio']}','{$template['data']['fields']['email']}','{$template['data']['fields']['text_comment']}',NOW())";
+        $sql = "INSERT INTO book (id, `fio`,`email`,`text`, `date_create`)";
+        $sql .= "VALUE (NULL,'{$template['data']['fields']['fio']}','{$template['data']['fields']['email']}','{$template['data']['fields']['text']}',NOW())";
         $result = mysqli_query($link, $sql);   
         }  
            if( $result ){ 

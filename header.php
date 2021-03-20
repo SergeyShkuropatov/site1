@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru">
-
+<?php
+    include($_SERVER['DOCUMENT_ROOT']."/db.php"); 
+?>
 <head>                      
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,9 +50,6 @@ $part_uri=substr($uri,0,$len-4);
 
 $sliderHeader = [];
 $mas_part_uri=[];
-      //Настраиваем подключение к БД
-    $link = mysqli_connect('localhost', 'nasik159_moscow', 'F9j1L8q0', 'nasik159_moscow');
-    mysqli_set_charset($link, 'utf8');
         //Формируем данные картинок в слайдер
     $sql_cards = " SELECT * FROM `sliderheader`";
     $result_cards = mysqli_query($link, $sql_cards);
@@ -58,7 +57,6 @@ $mas_part_uri=[];
     while( $data_card = mysqli_fetch_assoc($result_cards) ){
         array_push($sliderHeader, $data_card);
     }
-
     ?>
     <?php foreach( $sliderHeader as $key => $row): ?>
         <?php foreach( $row as $k => $value): ?>
