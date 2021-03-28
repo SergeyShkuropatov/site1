@@ -1,4 +1,4 @@
- ﻿<?php
+ <?php
     include($_SERVER['DOCUMENT_ROOT']."/header.php"); 
 ?>
   <link rel="stylesheet" href="css/tours/style_tours.css">
